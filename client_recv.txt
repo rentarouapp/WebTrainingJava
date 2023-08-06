@@ -1,15 +1,12 @@
 HTTP/1.1 200 OK
-Date: Sun, 06 Aug 2023 05:46:28 GMT
+Date: Sun, 06 Aug 2023 06:21:05 GMT
 Server: Apache/2.4.56 (Unix)
-Content-Location: index.html.en
-Vary: negotiate
-TCN: choice
-Last-Modified: Thu, 15 Jun 2023 10:08:29 GMT
-ETag: "2d-5fe283ff94140;5fe283ff94140
+Last-Modified: Sun, 06 Aug 2023 06:04:58 GMT
+ETag: "30-6023ae8d69680"
 Accept-Ranges: bytes
-Content-Length: 45
+Content-Length: 48
 Keep-Alive: timeout=15, max=100
 Connection: Keep-Alive
 Content-Type: text/html
 
-<html><body><h1>It works!</h1></body></html>
+<html><body><h1>Hello World!</h1></body></html>
