@@ -1,3 +1,4 @@
+package bbs;
 import java.io.*;
 import javax.servlet.http.*;
 
@@ -7,6 +8,6 @@ public class PostBBS extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         Message newMessage = new Message(request.getParameter("title"), request.getParameter("handle"), request.getParameter("message"));
         Message.messageList.add(0, newMessage);
-        response.sendRedirect("/testbbs/ShowBBS");
+        response.sendRedirect("/testbbs_jsp/showbbs.jsp");
     }
 }

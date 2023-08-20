@@ -3,17 +3,9 @@
 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1" metadata-complete="true">
 
     <servlet>
-        <servlet-name>ShowBBS</servlet-name>
-        <servlet-class>ShowBBS</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>PostBBS</servlet-name>
-        <servlet-class>PostBBS</servlet-class>
+        <servlet-class>bbs.PostBBS</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>ShowBBS</servlet-name>
-        <url-pattern>/ShowBBS</url-pattern>
-    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>PostBBS</servlet-name>
         <url-pattern>/PostBBS</url-pattern>
